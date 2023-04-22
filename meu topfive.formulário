@@ -1,0 +1,164 @@
+                         MEU TOP FIVE 
+                         
+<!DOCTYPE HTML>
+<html>
+
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Top 5 séries de comédia</title>
+        <Style>
+            .finzinho{text-align: center; align-items: center;
+
+            }
+        </Style>
+    </head>
+
+<body>
+
+    <h1><a href="Formulario do top5.html">Aceito sugestão para um novo top five, CLIQUE AQUI !!! !</a> </h1>
+
+<h1>Esse é o meu TOP FIVE de séries</h1>
+
+
+<ol type="1">
+    <li> <a href="#Stranger Things">Stranger Things</a> </li>
+    <li> <a href="#Got">Stranger Things</a> </li>
+    <li> <a href="#TWD">The Walking Dead</a> </li>
+    <li> <a href="#LaCasaDePapel">La Casa De Papel</a> </li>
+    <li> <a href="#Anne">Anne Whith an E</a> </li>
+</ol>
+
+
+<h1 id="Stranger F.">Stranger Things</h1>
+<img src="https://br.web.img2.acsta.net/pictures/19/07/10/20/01/2331295.jpg">
+<p> A série mistura ficção científica e terror e se passa nos anos 80. Tem como protagonistas quatro crianças que se envolvem na busca pelo amigo Will, que desaparece logo no primeiro episódio da primeira temporada. Stranger Things é ambientada na cidade de Hawkins, próximo à uma base secreta do governo norte-americano.</p>
+
+
+<h2 id="Got">Game of Thrones</h2>
+<img src="https://upload.wikimedia.org/wikipedia/pt/a/a0/GameofThrones.png">
+<p>A trama de GOT se passa em um mundo fictício medieval, em que sete reinos são governados por diferentes famílias nobres. A série aborda temas como política, guerra, intriga e religião, e possui um enredo complexo e cheio de reviravoltas.</p>
+
+
+<h3 id="TWD">The Walking Dead</h3>
+<img src="https://pop.proddigital.com.br/wp-content/uploads/sites/8/2022/11/20-curiosidades-incriveis-sobre-the-walking-dead-divulgacao.jpg">
+<p>Baseada em uma HQ, The Walking Dead conta a história de um grupo de sobreviventes, liderados pelo xerife Rick Grimes (Andrew Lincoln), após um apocalipse zumbi. Toda a população da Terra é infectada por um vírus misterioso que transforma os mortos em zumbis.</p>
+
+
+<h4 id="LaCasa">La Casa De Papel</h4>
+<img src="https://conteudo.imguol.com.br/c/entretenimento/3c/2019/07/17/poster-da-parte-3-de-la-casa-de-papel-1563405479428_v2_615x300.jpg">
+<p>La Casa de Papel é uma série de televisão de drama policial espanhola criada por Álex Pina. A trama traça dois assaltos muito preparados liderados por um homem conhecido como O Professor (Álvaro Morte), um na Casa da Moeda Real da Espanha e outro no Banco Central da Espanha.</p>
+
+
+<h5 id="Anne">Anne Whith an E</h5>
+<img src="https://afinamenina.com.br/wp-content/uploads/2020/04/annefinal-e1588122138181.png">
+<p>O que se trata a série Anne with an E?
+    Neste filme baseado no livro "Anne de Green Gables", uma impetuosa órfã é adotada por engano por um casal de irmãos solteirões do interior. Assista o quanto quiser. Premiada no Emmy, a roteirista e produtora Moira Walley-Beckett ("Breaking Bad") renova este clássico da língua inglesa.</p>
+
+
+
+
+
+
+<div class="finzinho">
+<p style="font-size: smaller;"><b>Vanessa Cabral</b></p>
+<a href="https://www.linkedin.com/in/vanessa-cabral-792146249/">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" style="height: 15px;">
+</a>
+</div>
+
+
+</body>
+</html>
+
+
+                                                     FORMULÁRIO HTML
+                                                     
+                                                     
+   <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sugestão de novas obras para o TOP 5</title>
+    <link rel="stylesheet" href="stilo.css">
+  </head>
+  <body>
+    <h1>Sugestão de novas obras para o TOP 5</h1>
+    <p>Preencha o formulário abaixo para enviar sua sugestão de nova obra para o TOP 5.</p>
+    <form action="enviar.php" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required><br><br>
+      
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="tipo">Tipo:</label>
+      <select id="tipo" name="tipo" required>
+        <option value="">Selecione uma opção</option>
+        <option value="filme">Filme</option>
+        <option value="serie">Série</option>
+      </select><br><br>
+      
+      <label for="nome_obra">Nome da obra:</label>
+      <input type="text" id="nome_obra" name="nome_obra" required><br><br>
+      
+      <label for="trailer">Link do trailer:</label>
+      <input type="url" id="trailer" name="trailer"><br><br>
+      
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
+
+
+                                       CSS
+                                       
+                                       
+    body {
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 50;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+label {
+  display: contents;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  border: 2px solid #bc3fc5;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #a249b4;
+  color: rgb(241, 232, 243);
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #e60fe6;
+}
+
+
